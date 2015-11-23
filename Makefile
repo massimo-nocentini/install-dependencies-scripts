@@ -9,3 +9,5 @@ all-ordered:
 	bash vim-install-dependencies.sh
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
+	bash sage-install-dependecies.sh
+	bash pip3-install-eggs.sh
