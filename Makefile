@@ -13,9 +13,12 @@ all-ordered:
 	bash scipy-install.sh
 	bash haskell-platform-install.sh
 	bash pip3-install-eggs.sh
-	# the following packages can be built in parallel
+	# the following "lispy" packages can be built in parallel
 	bash sage-install-dependecies.sh
 	bash racket-install.sh
 	bash chicken-scheme-install.sh
 	bash clisp-install-dependencies.sh
 	bash rlwrap-install.sh
+	# the following "ML" packages can be built in parallel
+	bash ocaml-install.sh
+	bash smlnj-install-dependencies.sh
