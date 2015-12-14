@@ -11,5 +11,11 @@ all-ordered:
 	bash vim-install-dependencies.sh
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
-	bash sage-install-dependecies.sh
+	bash haskell-platform-install.sh
 	bash pip3-install-eggs.sh
+	# the following packages can be built in parallel
+	bash sage-install-dependecies.sh
+	bash racket-install.sh
+	bash chicken-scheme-install.sh
+	bash clisp-install-dependencies.sh
+	bash rlwrap-install.sh
