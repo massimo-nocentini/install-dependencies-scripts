@@ -5,4 +5,4 @@
 # Moreover, Samsung printer drivers could be installed, too.
 # They are present under ~/Developer/drivers/samsung/
 
-sudo apt-get install calibre
+sudo apt-get install calibre gaphor curl synaptic

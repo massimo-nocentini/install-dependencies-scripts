@@ -22,3 +22,10 @@ all-ordered:
 	# the following "ML" packages can be built in parallel
 	bash ocaml-install.sh
 	bash smlnj-install-dependencies.sh
+	# emacs' turn
+	bash emacs-install-dependencies.sh
+	bash ack-beyondgrep-install.sh
+	bash exuberant-ctags-install-dependencies.sh
+	bash swipl-install-dependencies.sh
+	# pharo isn't working with the actual ubuntu distribution
+	#bash pharo-install-dependencies.sh
