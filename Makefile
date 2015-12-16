@@ -29,3 +29,4 @@ all-ordered:
 	bash swipl-install-dependencies.sh
 	# pharo isn't working with the actual ubuntu distribution
 	#bash pharo-install-dependencies.sh
+	bash leiningen-install.sh
