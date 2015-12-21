@@ -28,5 +28,7 @@ all-ordered:
 	bash exuberant-ctags-install-dependencies.sh
 	bash swipl-install-dependencies.sh
 	# pharo isn't working with the actual ubuntu distribution
-	#bash pharo-install-dependencies.sh
+	bash pharo-install-dependencies.sh
 	bash leiningen-install.sh
+	# the following script will install `llvm` and `clang` too
+	bash pure-lang-install-dependencies.sh
