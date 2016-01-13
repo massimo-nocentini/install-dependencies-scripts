@@ -1,6 +1,7 @@
 
 # in parallel of the following packages, `texlive` distribution can be
-# installed using the provided script.
+# installed using the provided script. Take it from:
+# http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 
 # Moreover, Samsung printer drivers could be installed, too.
 # They are present under ~/Developer/drivers/samsung/
