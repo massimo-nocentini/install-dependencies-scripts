@@ -32,3 +32,4 @@ all-ordered:
 	bash leiningen-install.sh
 	# the following script will install `llvm` and `clang` too
 	bash pure-lang-install-dependencies.sh
+	bash sbcl-install.sh
