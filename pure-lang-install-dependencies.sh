@@ -14,3 +14,5 @@ sudo apt-get install llvm-3.5-dev clang-3.5 libclang-3.5-dev
 
 # WORKING `CONFIGURE` COMMAND: it uses gcc to compile
 # $ ./configure --enable-release --with-pcre --with-llvm-version=3.5
+# after the installation with `sudo make install` another command
+# to update the cache of headers maybe necessary `sudo ldconfig`.
