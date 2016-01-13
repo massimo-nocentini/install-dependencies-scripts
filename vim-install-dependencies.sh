@@ -10,6 +10,7 @@ sudo apt-get install \
 
 # it should be interesting to add support for ruby too as an internal interpreter.
 ./configure --enable-luainterp=yes --with-lua-prefix=/usr/local \
-    --with-features=huge --enable-python3interp=yes --enable-rubyinterp=yes
+    --with-features=huge --enable-python3interp=yes --enable-rubyinterp=yes \
+    --enable-perlinterp=yes
 make
 sudo make install
