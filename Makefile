@@ -4,6 +4,7 @@ all-ordered:
 	bash general-purpose-install-dependencies.sh
 	bash version-control-tools-install.sh
 	bash powerline-fonts-install.sh 
+	bash blueman-install-dependencies.sh
 	bash tmux-install-dependencies.sh 
 	bash python-install-dependencies.sh
 	bash lua-install.sh 
