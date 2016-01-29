@@ -1,5 +1,6 @@
 
 all-ordered:
+	# dynamic languages and vim stuff
 	bash general-purpose-software-install.sh
 	bash general-purpose-install-dependencies.sh
 	bash version-control-tools-install.sh
@@ -13,8 +14,9 @@ all-ordered:
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
 	bash pip3-install-eggs.sh
+	bash mathjax-install.sh
+	# Haskell platform and "lispy" packages can be built in parallel
 	bash haskell-platform-install.sh
-	# the following "lispy" packages can be built in parallel
 	bash sage-install-dependecies.sh
 	bash racket-install.sh
 	bash chicken-scheme-install.sh
