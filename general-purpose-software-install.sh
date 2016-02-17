@@ -20,3 +20,5 @@ sudo update-initramfs -u
 # in order to play restricted dvds:
 sudo apt-get install libdvdread4
 sudo /usr/share/doc/libdvdread4/install-css.sh
+
+sudo apt-get install gsfonts-x11
