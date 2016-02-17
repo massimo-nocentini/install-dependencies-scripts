@@ -39,4 +39,4 @@ all-ordered:
 	# pdf readers 
 	freetype-install.sh
 	xpdf-install-dependencies.sh
-
+	mupdf-install-dependencies.sh
