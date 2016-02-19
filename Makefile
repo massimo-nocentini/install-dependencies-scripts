@@ -38,9 +38,9 @@ all-ordered:
 	bash sbcl-install.sh
 	# pdf readers 
 	freetype-install.sh
+	poppler-install-dependencies.sh
 	xpdf-install-dependencies.sh
 	mupdf-install-dependencies.sh
-	# zathura ecosystem
 	girara-install-dependencies.sh
 	zathura-install-dependencies.sh
 
