@@ -43,4 +43,4 @@ all-ordered:
 	mupdf-install-dependencies.sh
 	girara-install-dependencies.sh
 	zathura-install-dependencies.sh
-
+	atril-install-dependencies.sh
