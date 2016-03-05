@@ -11,3 +11,5 @@ sudo apt-get install qt5-default
 
 # after compiling and installing `PyQt5` we did the following:
 # sudo pip3 install --upgrade jupyter qtconsole
+
+# Sadly, the `PySide` module is missing to tie the knot, since it doesn't support Python 3.5 up to now.
