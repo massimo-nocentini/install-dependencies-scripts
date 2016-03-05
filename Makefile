@@ -15,6 +15,8 @@ all-ordered:
 	bash scipy-install.sh
 	bash pip3-install-eggs.sh
 	bash mathjax-install.sh
+	# the following one could be compiled here, but in reality I did after pdf readers
+	bash python-qt-install-dependencies.sh
 	# Haskell platform and "lispy" packages can be built in parallel
 	bash haskell-platform-install.sh
 	bash sage-install-dependecies.sh
@@ -44,3 +46,4 @@ all-ordered:
 	girara-install-dependencies.sh
 	zathura-install-dependencies.sh
 	atril-install-dependencies.sh
+	# at this point I did compile PyQt but I think could be compiled before, together with other Python stuff
