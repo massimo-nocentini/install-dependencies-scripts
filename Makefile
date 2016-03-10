@@ -38,7 +38,7 @@ all-ordered:
 	# the following script will install `llvm` and `clang` too
 	bash pure-lang-install-dependencies.sh
 	bash sbcl-install.sh
-	# pdf readers 
+	# pdf readers, moreover it should be nice to install Qt5 before all of them. 
 	freetype-install.sh
 	poppler-install-dependencies.sh
 	xpdf-install-dependencies.sh
