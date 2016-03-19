@@ -1,5 +1,8 @@
 
 all-ordered:
+	# the following script contains command to disable interrupts on GPE channels:
+	# it can be performed or not...
+	gpe17-interrupt-handling.sh
 	# dynamic languages and vim stuff
 	bash general-purpose-software-install.sh
 	bash general-purpose-install-dependencies.sh
