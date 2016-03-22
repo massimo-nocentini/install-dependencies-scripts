@@ -52,3 +52,5 @@ all-ordered:
 	# at this point I did compile PyQt but I think could be compiled before, together with other Python stuff
 	# the following is the software to install the card reader for Tessere Sanitarie Regione Toscana
 	card-reader-install-dependencies.sh
+	# the following script is related to Gnu Smalltalk, but it fail to build the documentation due to `aclocal` program not found
+	gnu-smalltalk-install-dependencies.sh
