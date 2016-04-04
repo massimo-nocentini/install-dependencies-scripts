@@ -54,5 +54,6 @@ all-ordered:
 	card-reader-install-dependencies.sh
 	# the following script is related to Gnu Smalltalk, but it fail to build the documentation due to `aclocal` program not found
 	gnu-smalltalk-install-dependencies.sh
-	# installing `i3` desktop environment
+	# installing desktop environments
 	i3-install-dependencies.sh
+	xfce-comprehensive-compile.sh
