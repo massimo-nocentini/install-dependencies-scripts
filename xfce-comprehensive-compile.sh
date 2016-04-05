@@ -20,7 +20,7 @@ gtk_xfce_engine=gtk-xfce-engine-2.10.0
 xfce4_mixer=xfce4-mixer-4.11.0
 gigolo=gigolo-0.4.2
 
-sudo apt-get install libwnck-dev libgudev-1.0-dev libnotify-dev libupower-glib-dev libpolkit-gobject-1-dev libxklavier-dev libinput-dev xserver-xorg-input-libinput-dev libexif-dev libexif-gtk-dev libgladeui-dev libextutils-depends-perl libextutils-pkgconfig-perl libgtk3-perl lxpanel libgstreamer-plugins-base0.10-dev libunique-dev gstreamer0.10-plugins-good
+sudo apt-get install libwnck-dev libgudev-1.0-dev libnotify-dev libupower-glib-dev libpolkit-gobject-1-dev libxklavier-dev libinput-dev xserver-xorg-input-libinput-dev libexif-dev libexif-gtk-dev libgladeui-dev libextutils-depends-perl libextutils-pkgconfig-perl libgtk3-perl lxpanel libgstreamer-plugins-base0.10-dev libunique-dev gstreamer0.10-plugins-good gstreamer0.10-alsa
 
 #rm -rf $xfce4_dev_tools
 tar xfj $xfce4_dev_tools.tar.bz2 
