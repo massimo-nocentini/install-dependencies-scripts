@@ -17,8 +17,10 @@ xfce4_power_manager=xfce4-power-manager-1.4.3
 thunar_volman=thunar-volman-0.8.1
 tumbler=tumbler-0.1.31
 gtk_xfce_engine=gtk-xfce-engine-2.10.0
+xfce4_mixer=xfce4-mixer-4.11.0
+gigolo=gigolo-0.4.2
 
-sudo apt-get install libwnck-dev libgudev-1.0-dev libnotify-dev libupower-glib-dev libpolkit-gobject-1-dev libxklavier-dev libinput-dev xserver-xorg-input-libinput-dev libexif-dev libexif-gtk-dev libgladeui-dev libextutils-depends-perl libextutils-pkgconfig-perl libgtk3-perl lxpanel
+sudo apt-get install libwnck-dev libgudev-1.0-dev libnotify-dev libupower-glib-dev libpolkit-gobject-1-dev libxklavier-dev libinput-dev xserver-xorg-input-libinput-dev libexif-dev libexif-gtk-dev libgladeui-dev libextutils-depends-perl libextutils-pkgconfig-perl libgtk3-perl lxpanel libgstreamer-plugins-base0.10-dev libunique-dev gstreamer0.10-plugins-good
 
 #rm -rf $xfce4_dev_tools
 tar xfj $xfce4_dev_tools.tar.bz2 
@@ -103,6 +105,16 @@ cd ..
 #rm -rf $gtk_xfce_engine
 tar xfj $gtk_xfce_engine.tar.bz2 
 cd $gtk_xfce_engine && ./configure && make && sudo make install
+cd ..
+
+#rm -rf $xfce4_mixer
+tar xfj $xfce4_mixer.tar.bz2 
+cd $xfce4_mixer && ./configure && make && sudo make install
+cd ..
+
+#rm -rf $gigolo
+tar xfj $gigolo.tar.bz2 
+cd $gigolo && ./configure && make && sudo make install
 cd ..
 
 sudo ldconfig
