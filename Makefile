@@ -26,6 +26,7 @@ all-ordered:
 	bash racket-install.sh
 	bash chicken-scheme-install.sh
 	bash clisp-install-dependencies.sh
+	bash guile-install-dependencies.sh
 	bash rlwrap-install.sh
 	# the following "ML" packages can be built in parallel
 	bash ocaml-install.sh
@@ -57,3 +58,4 @@ all-ordered:
 	# installing desktop environments
 	i3-install-dependencies.sh
 	xfce-comprehensive-compile.sh
+	# here I've installed `Guile` but it should be installed when other lisps do
