@@ -59,3 +59,8 @@ all-ordered:
 	i3-install-dependencies.sh
 	xfce-comprehensive-compile.sh
 	# here I've installed `Guile` but it should be installed when other lisps do
+
+# the following rule copies hidden files directly under my home folder to a backup
+# folder within my Dropbox tree.
+copy-hidden-files-under-home-folder:
+	copy-hidden-files-under-home-folder.sh
