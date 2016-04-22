@@ -10,6 +10,6 @@ sudo apt-get install \
 
 ./configure --enable-luainterp=yes --with-lua-prefix=/usr/local \
     --with-features=huge --enable-python3interp=yes --enable-rubyinterp=yes \
-    --enable-perlinterp=yes
+    --enable-perlinterp=yes #--enable-pythoninterp=yes
 make
 sudo make install

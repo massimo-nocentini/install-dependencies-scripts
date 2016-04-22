@@ -6,7 +6,7 @@
 # Moreover, Samsung printer drivers could be installed, too.
 # They are present under ~/Developer/drivers/samsung/
 
-sudo apt-get install calibre gaphor curl synaptic pidgin remmina \
+sudo apt-get install calibre curl synaptic pidgin remmina \
     gparted chromium-browser evince-gtk gsfonts-x11 unrar unetbootin
 
 # in order to install `dropbox`, use the following command:
@@ -19,5 +19,6 @@ sudo update-initramfs -u
 
 # in order to play restricted dvds:
 sudo apt-get install libdvdread4
-sudo /usr/share/doc/libdvdread4/install-css.sh
+# the following command no longer works:
+# $ sudo /usr/share/doc/libdvdread4/install-css.sh
 

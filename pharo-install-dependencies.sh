@@ -13,6 +13,8 @@
 sudo dpkg --add-architecture i386 
 sudo apt-get update 
 sudo apt-get install libx11-6:i386 libgl1-mesa-glx:i386 libfontconfig1:i386 libssl1.0.0:i386
+
+# THE FOLLOWING *ISN'T* REQUIRED ANYMORE
 # they works, however before I performed the following `build-dep` for `squeak-vm`:
 # it should be interesting to understand if it is really necessary or not...for leave it commented:
 # sudo apt-get build-dep squeak-vm
