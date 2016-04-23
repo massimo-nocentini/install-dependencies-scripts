@@ -1,8 +1,5 @@
 
 all-ordered:
-	# the following script contains command to disable interrupts on GPE channels:
-	# it can be performed or not...
-	gpe17-interrupt-handling.sh
 	# dynamic languages and vim stuff
 	bash general-purpose-software-install.sh
 	bash general-purpose-install-dependencies.sh
@@ -17,7 +14,8 @@ all-ordered:
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
 	bash pip3-install-eggs.sh
-	bash mathjax-install.sh
+	# the following one isn't more necessary
+	# bash mathjax-install.sh
 	# the following one could be compiled here, but in reality I did after pdf readers
 	# as a first building of the environment, I skip the following one:
 	bash python-qt-install-dependencies.sh
@@ -46,6 +44,11 @@ all-ordered:
 	bash sbcl-install.sh
 	# the following script is related to Gnu Smalltalk, but it fail to build the documentation due to `aclocal` program not found
 	gnu-smalltalk-install-dependencies.sh
+
+disable-GPE-interrupts:
+	# the following script contains command to disable interrupts on GPE channels:
+	# it can be performed or not...
+	gpe17-interrupt-handling.sh
 
 pdf-readers:
 	# pdf readers, moreover it should be nice to install Qt5 before all of them. 

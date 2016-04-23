@@ -7,10 +7,10 @@
 # They are present under ~/Developer/drivers/samsung/
 
 sudo apt-get install calibre curl synaptic pidgin remmina \
-    gparted chromium-browser evince-gtk gsfonts-x11 unrar unetbootin
+    gparted chromium-browser evince-gtk gsfonts-x11 unrar #unetbootin
 
 # in order to install `dropbox`, use the following command:
-# $ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 
 # the following lines are necessary to swap function keys behaviour
 # for Apple keyboards.
