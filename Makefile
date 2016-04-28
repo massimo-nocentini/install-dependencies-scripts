@@ -45,6 +45,11 @@ all-ordered:
 	# the following script is related to Gnu Smalltalk, but it fail to build the documentation due to `aclocal` program not found
 	gnu-smalltalk-install-dependencies.sh
 
+R:
+	R-install.sh
+	zeromq-install-dependencies.sh
+	R-jupyter-kernel-install.sh        
+
 disable-GPE-interrupts:
 	# the following script contains command to disable interrupts on GPE channels:
 	# it can be performed or not...
