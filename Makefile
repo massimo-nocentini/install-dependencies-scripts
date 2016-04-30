@@ -80,3 +80,6 @@ desktop-environments:
 # folder within my Dropbox tree.
 copy-hidden-files-under-home-folder:
 	copy-hidden-files-under-home-folder.sh
+
+disable-discrete-GPU:
+	handling-discrete-GPU.sh 
