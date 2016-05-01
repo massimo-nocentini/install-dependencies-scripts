@@ -6,7 +6,7 @@
 # Moreover, Samsung printer drivers could be installed, too.
 # They are present under ~/Developer/drivers/samsung/
 
-sudo apt-get install calibre curl synaptic pidgin remmina \
+sudo apt-get install vlc calibre curl synaptic pidgin remmina \
     gparted chromium-browser evince-gtk gsfonts-x11 unrar #unetbootin
 
 # in order to install `dropbox`, use the following command:
