@@ -14,6 +14,7 @@ all-ordered:
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
 	bash pip3-install-eggs.sh
+	bash rubygem-install-gems.sh
 	# the following one isn't more necessary
 	# bash mathjax-install.sh
 	# the following one could be compiled here, but in reality I did after pdf readers
