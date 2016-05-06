@@ -4,3 +4,5 @@
 make PLATFORM=linux
 sudo make PLATFORM=linux install
 
+# after installation, issue the following command which installs some eggs:
+sudo chicken-install test
