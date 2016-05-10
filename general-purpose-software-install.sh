@@ -18,7 +18,7 @@ echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
 sudo update-initramfs -u
 
 # in order to play restricted dvds:
-sudo apt-get install libdvdread4
+# sudo apt-get install libdvdread4
 # the following command no longer works:
 # $ sudo /usr/share/doc/libdvdread4/install-css.sh
 
