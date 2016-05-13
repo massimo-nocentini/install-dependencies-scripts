@@ -16,6 +16,8 @@ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 # for Apple keyboards.
 echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
 sudo update-initramfs -u
+# for just one session use:
+# $ echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
 
 # in order to play restricted dvds:
 # sudo apt-get install libdvdread4
