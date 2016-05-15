@@ -3,7 +3,9 @@
 # Radeon M335 on Dell Inspiron 5559. As soon as it is `Off`, the fan stops making noise :S:S
 
 # It is important for this file to be executable (chmod +x ...) since it is ran
-# at the end of user runlevel, namely it appears within `/etc/rc.local`.
+# at the end of user runlevel, namely it appears within `/etc/rc.local`, the following
+# line should be put before `exit 0` in the script:
+# /home/mn/Developer/working-copies/install-dependencies-scripts/handling-discrete-GPU.sh
 
 # A clear explanation of this issue is here:
 # https://subhoworld.wordpress.com/2013/04/25/disabling-discrete-amd-graphics-card-in-linux/

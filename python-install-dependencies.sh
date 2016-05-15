@@ -7,4 +7,4 @@ sudo apt-get install libssl-dev openssl libsqlite3-dev \
 # kept from: http://stackoverflow.com/questions/22592686/compiling-python-3-4-is-not-copying-pip
 # $ ./configure --with-ensurepip=install
 
-# after the `sudo make install` remember to delete the folder with `sudo rm -rf Python-...`
+# After installation leave the directory to have a look at docs (for instance `timsort.txt`).
