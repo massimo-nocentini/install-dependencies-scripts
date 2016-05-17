@@ -4,7 +4,7 @@
 # http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 
 # Moreover, Samsung printer drivers could be installed, too.
-# They are present under ~/Developer/drivers/samsung/
+# They are present under ~/Developer/snapshots/drivers/samsung/
 
 sudo apt-get install vlc calibre curl synaptic pidgin remmina \
     gparted chromium-browser evince-gtk gsfonts-x11 unrar #unetbootin
