@@ -23,6 +23,7 @@ sudo update-initramfs -u
 sudo apt-get install libdvd-pkg 
 # since it has to fetch and compile the following is necessary:
 sudo dpkg-reconfigure libdvd-pkg
+# again, this seems to not work, so manual compilation of libdvdccs is required (we hope).
     
 # before it was necessary the following:
 # $ sudo apt-get install libdvdread4
