@@ -20,9 +20,9 @@ sudo update-initramfs -u
 # $ echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
 
 # in order to play restricted dvds:
-sudo apt-get install libdvd-pkg 
+# sudo apt-get install libdvd-pkg 
 # since it has to fetch and compile the following is necessary:
-sudo dpkg-reconfigure libdvd-pkg
+# sudo dpkg-reconfigure libdvd-pkg
 # again, this seems to not work, so manual compilation of libdvdccs is required (we hope).
     
 # before it was necessary the following:

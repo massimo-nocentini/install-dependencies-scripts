@@ -47,6 +47,7 @@ all-ordered:
 	gnu-smalltalk-install-dependencies.sh
 
 R:
+	curl-install.sh
 	R-install.sh
 	zeromq-install-dependencies.sh
 	R-jupyter-kernel-install.sh        
