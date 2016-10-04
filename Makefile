@@ -22,6 +22,7 @@ all-ordered:
 	bash python-qt-install-dependencies.sh
 	# Haskell platform and "lispy" packages can be built in parallel
 	bash haskell-platform-install.sh
+	bash pandoc-install.sh
 	bash sage-install-dependecies.sh
 	# `racket` has problems compiling at this point on Xubuntu 16.04
 	bash racket-install.sh
