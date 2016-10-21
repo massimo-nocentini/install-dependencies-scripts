@@ -11,6 +11,7 @@ all-ordered:
 	bash lua-install.sh 
 	bash ruby-install-dependencies.sh
 	bash vim-install-dependencies.sh
+	bash dotfiles-copy.sh
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
 	bash pip3-install-eggs.sh
