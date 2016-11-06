@@ -7,20 +7,16 @@ all-ordered:
 	bash version-control-tools-install.sh
 	bash powerline-fonts-install.sh 
 	bash tmux-install-dependencies.sh 
-	bash blueman-install-dependencies.sh
+	#bash blueman-install-dependencies.sh
 	bash python-install-dependencies.sh
 	bash lua-install.sh 
 	bash ruby-install-dependencies.sh
 	bash vim-install-dependencies.sh
+	bash emacs-install-dependencies.sh
 	bash numpy-install-dependecies.sh
 	bash scipy-install.sh
 	bash pip3-install-eggs.sh
 	bash rubygem-install-gems.sh
-	# the following one isn't more necessary
-	# bash mathjax-install.sh
-	# the following one could be compiled here, but in reality I did after pdf readers
-	# as a first building of the environment, I skip the following one:
-	bash python-qt-install-dependencies.sh
 	# Haskell platform and "lispy" packages can be built in parallel
 	bash haskell-platform-install.sh
 	bash pandoc-install.sh
@@ -34,8 +30,6 @@ all-ordered:
 	# the following "ML" packages can be built in parallel
 	bash ocaml-install.sh
 	bash smlnj-install-dependencies.sh
-	# emacs' turn
-	bash emacs-install-dependencies.sh
 	bash ack-beyondgrep-install.sh
 	bash exuberant-ctags-install-dependencies.sh
 	bash swipl-install-dependencies.sh
@@ -60,6 +54,9 @@ disable-GPE-interrupts:
 	gpe17-interrupt-handling.sh
 
 pdf-readers:
+	# the following one could be compiled here, but in reality I did after pdf readers
+	# as a first building of the environment, I skip the following one:
+	bash python-qt-install-dependencies.sh
 	# pdf readers, moreover it should be nice to install Qt5 before all of them. 
 	freetype-install.sh
 	poppler-install-dependencies.sh
@@ -82,3 +79,6 @@ desktop-environments:
 
 disable-discrete-GPU:
 	handling-discrete-GPU.sh 
+
+obsolete:
+	#bash mathjax-install.sh
