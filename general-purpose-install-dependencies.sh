@@ -5,4 +5,4 @@
 # In order to succeed, enable `source` option within source.list:
 sudo apt-get build-dep curl
 
-sudo apt-get install binutils-dev
+sudo apt-get install binutils-dev libncurses5-dev
