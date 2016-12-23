@@ -48,6 +48,9 @@ R:
 	zeromq-install-dependencies.sh
 	R-jupyter-kernel-install.sh        
 
+latest-kernel:
+	linux-kernel-latest-install.sh
+
 disable-GPE-interrupts:
 	# the following script contains command to disable interrupts on GPE channels:
 	# it can be performed or not...
