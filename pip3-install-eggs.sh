@@ -1,5 +1,6 @@
 
 # The commented command is to avoid compilation of `numpy` and `scipy`
-#sudo pip3 install ipython jupyter sphinx matplotlib sympy numpy scipy
 
-sudo pip3 install ipython jupyter sphinx matplotlib sympy aiohttp pymc
+# $ `brew install pkg-config` only for MacOS: required by `matplotlib`
+pip3.6 install numpy scipy ipython jupyter sphinx sympy aiohttp 
+pip3.6 install pymc matplotlib
