@@ -42,6 +42,9 @@ all-ordered:
 	# the following script is related to Gnu Smalltalk, but it fail to build the documentation due to `aclocal` program not found
 	gnu-smalltalk-install-dependencies.sh
 
+brew-mac-os:
+	brew-install.sh
+
 R:
 	curl-install.sh
 	R-install.sh
