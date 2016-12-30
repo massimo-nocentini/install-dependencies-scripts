@@ -1,4 +1,6 @@
 
+# http://brew.sh/
+
 # the following command downloads and install `brew`, the missing package manager:
 #/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
