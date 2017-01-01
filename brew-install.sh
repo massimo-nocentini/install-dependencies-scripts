@@ -9,11 +9,9 @@
 
 # About `Python`, JDK, and `Haskell platform`: I choose to install them by the official installers.
 
-brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config bash-completion gcc freetype
+brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config bash-completion gcc freetype vim wget
 
-# put the following lines in `~/.bash_profile`:
-#if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    #. $(brew --prefix)/etc/bash_completion
-#fi
+echo "source ~/.bash_profile_ext" >> ~/.bash_profile
+
 
 # now it is possible to install `pip` eggs
