@@ -10,8 +10,7 @@
 # About `Python`, JDK, and `Haskell platform`: I choose to install them by the official installers.
 
 brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config bash-completion gcc freetype vim wget
+brew cask install pharo
 
 echo "source ~/.bash_profile_ext" >> ~/.bash_profile
 
-
-# now it is possible to install `pip` eggs
