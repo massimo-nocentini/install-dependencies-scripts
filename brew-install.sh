@@ -12,5 +12,8 @@
 brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config bash-completion gcc freetype vim wget
 brew cask install pharo
 
+# the following ocaml modules are necessary for HOL Light project
+opam install camlp5 ocamlfind
+
 echo "source ~/.bash_profile_ext" >> ~/.bash_profile
 
