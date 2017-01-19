@@ -9,10 +9,13 @@
 
 # About `Python`, JDK, and `Haskell platform`: I choose to install them by the official installers.
 
-brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config bash-completion gcc freetype vim wget
+brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config bash-completion gcc freetype vim wget bash
+brew cask install vlc dropbox pharo
 
-# We do not install `pharo` directly because it seems big and unresponsive on my macbook
-#brew cask install pharo
+# Add the new shell to the list of allowed shells
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+# Change to the new shell (or use the preference pane)
+chsh -s /usr/local/bin/bash 
 
 # the following ocaml modules are necessary for HOL Light project
 opam install camlp5 ocamlfind
