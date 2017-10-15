@@ -11,7 +11,7 @@
 brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config \
 	bash-completion gcc freetype vim wget bash cmake automake libgit2
 
-brew cask install vlc dropbox
+brew cask install vlc dropbox pharo julia
 
 # Add the new shell to the list of allowed shells
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
