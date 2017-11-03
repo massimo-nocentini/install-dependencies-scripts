@@ -9,7 +9,7 @@
 # About Python, JDK, texlive and the Haskell platform: I choose to install them by the official installers.
 
 brew install git tmux chicken clisp rlwrap smlnj ocaml opam cask leiningen pkg-config \
-	bash-completion gcc freetype vim wget bash cmake automake libgit2
+	bash-completion gcc freetype vim wget bash cmake automake libgit2 chezscheme
 
 brew cask install vlc dropbox pharo julia
 
