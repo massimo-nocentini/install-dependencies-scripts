@@ -22,4 +22,5 @@ chsh -s /usr/local/bin/bash
 opam init
 opam install camlp5 ocamlfind
 
-
+# Chicken Scheme's eggs
+sudo chicken-install test numbers matchable srfi-25 debug random-bsd

@@ -5,4 +5,4 @@ make PLATFORM=linux
 sudo make PLATFORM=linux install
 
 # after installation, issue the following command which installs some eggs:
-sudo chicken-install test numbers matchable srfi-25
+sudo chicken-install test numbers matchable srfi-25 debug random-bsd
